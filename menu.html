@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link
+    href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Raleway:ital@1&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+<style type="text/tailwindcss">
+  @theme {
+    --font-raleway: "Raleway", sans-serif;
+    --font-urbanist: "Urbanist", sans-serif;
+  }
+</style>
+        <title>Menu</title>
+</head>
+<body class="bg-white text-black dark:bg-[#252a30] dark:text-white">
+    <!--header-->
+    <div class="header sticky top-0 z-50" ></div>
+    <!--header-banner-->
+    <div class="relative">
+        <img src="images/menu-banner.jpg" alt="" class="w-full lg:h-112.5 sm:h-112.5 h-87.5 object-cover">
+        <div class="absolute top-[50%] left-[50%] w-full -translate-x-1/2 -translate-y-1/2 text-center">
+            <h2 class="text-white lg:text-[80px] sm:text-[60px] text-[40px] font-bold">Our Menu</h2>
+            <p class="text-white lg:text-[25px] sm:text-[25px] text-[20px]">Freshly Brewed . Freshly Served</p>
+        </div>
+    </div>
+    <!--items-button-->
+     <section class="flex lg:flex-row sm:flex-row flex-col sm:px-2.5  justify-center w-full gap-5 mt-7.5">
+        <button class="lg:w-37.5 sm:w-37.5 w-[90%] block mx-auto sm:mx-0 lg:mx-0  lg:py-2.5 lg:px-1.25 sm:py-2.5 sm:px-1.25 px-1.25 py-2.5  rounded-[20px] bg-[#371c0f] text-white font-bold hover:bg-[greenyellow] lg:scale-110 sm:scale-110   transition duration-300">All Items</button>
+        <button class="lg:w-37.5 lg:py-2.5 lg:px-1.25 sm:w-37.5  sm:py-2.5 sm:px-1.25 w-[90%] mx-auto py-2.5 px-1.25 lg:mx-0 sm:mx-0  border rounded-[20px] bg-white text-[#423c3c]   border-gray-400 font-bold hover:bg-[deepskyblue] transition duration-300">Coffee</button>
+        <button  class="lg:w-37.5 lg:py-2.5 lg:px-1.25 sm:w-37.5  sm:py-2.5 sm:px-1.25 w-[90%] mx-auto py-2.5 px-1.25 lg:mx-0 sm:mx-0 border rounded-[20px] bg-white text-[#423c3c] border-gray-400 font-bold hover:bg-[deepskyblue] transition duration-300">Tea</button>
+        <button  class="lg:w-37.5 lg:py-2.5 lg:px-1.25 sm:w-37.5  sm:py-2.5 sm:px-1.25 w-[90%] mx-auto py-2.5 px-1.25 lg:mx-0 sm:mx-0 border rounded-[20px] bg-white text-[#423c3c] border-gray-400 font-bold hover:bg-[deepskyblue] transition duration-300">Snacks</button>
+        <button  class="lg:w-37.5 lg:py-2.5 lg:px-1.25 sm:w-37.5  sm:py-2.5 sm:px-1.25 w-[90%] mx-auto py-2.5 px-1.25 lg:mx-0 sm:mx-0 border rounded-[20px] bg-white text-[#423c3c] border-gray-400 font-bold hover:bg-[deepskyblue] transition duration-300">Desserts</button>
+
+    </section>
+<!--menu-->
+    <section class="w-full bg-[#f9f2e6] mt-7.5 py-5">
+        <h2 class="pt-5 text-[#0d0b0c] text-center text-[50px] font-raleway font-bold">Coffee</h2>
+        <p class="text-[#5e5753] text-[20px] text-center font-raleway">Rich Flavour, Perfectly Brewed</p>
+    <div class="max-w-292.5 lg:flex lg:flex-row sm:grid sm:grid-cols-2 sm:px-2.5 flex flex-col px-2.5 mt-7.5 justify-center mx-auto gap-7.5 flex-wrap">
+        <div class="basis-[30%] flex  items-center bg-white shadow-[0px_0px_30px_#ccc] py-2.5 px-5 rounded-[20px]  hover:-translate-y-1.75 transition duration-300">
+            <figure>
+                <img src="images/menu-item1.jpg" alt="" class="w-50 rounded-[20px] h-30 object-cover " >
+            </figure>
+            <div class="py-2.5 px-5 mx-auto w-full">
+                <h4 class="text-[#5e5753] font-bold py-2.5 text-[20px] font-raleway text-center">Expresso</h4>
+                <p class="text-[#5e5753] font-bold text-[20px] font-urbanist text-center">₹ 100</p>
+                <span class="text-[#5e5753] text-center text-[15px] block mx-auto font-bold">Strong & Bold</span>
+            </div>
+        </div>
+        
+        <div class="basis-[30%] flex items-center bg-white shadow-[0px_0px_30px_#ccc] py-2.5 px-5 rounded-[20px]  hover:-translate-y-1.75 transition duration-300">
+            <figure>
+                <img src="images/menu-item2.jpg" alt="" class="w-50 rounded-[20px] h-30 object-cover">
+            </figure>
+            <div class="py-2.5 px-5 mx-auto w-full">
+                <h4 class="text-[#5e5753] font-bold py-2.5 text-[20px] font-raleway text-center">Americano</h4>
+                <p class="text-[#5e5753] font-bold text-[20px] font-urbanist text-center">₹ 120</p>
+                <span class="text-[#5e5753] text-center text-[15px] block mx-auto font-bold">Smooth & rich</span>
+            </div>
+        </div>
+         
+        <div class="basis-[30%] flex items-center bg-white shadow-[0px_0px_30px_#ccc] py-2.5 px-5 rounded-[20px]  hover:-translate-y-1.75 transition duration-300">
+            <figure>
+                <img src="images/menu 1.jpg" alt="" class="w-50 rounded-[20px] h-30 object-cover">
+            </figure>
+            <div class="py-2.5 px-5 mx-auto w-full">
+                <h4 class="text-[#5e5753] font-bold py-2.5 text-[20px] font-raleway text-center">cappuccino</h4>
+                <p class="text-[#5e5753] font-bold text-[20px] font-urbanist text-center">₹ 140</p>
+                <span class="text-[#5e5753] text-center text-[15px] block mx-auto font-bold">Creamy & classic</span>
+            </div>
+        </div>
+         
+        <div class="basis-[30%] flex items-center bg-white shadow-[0px_0px_30px_#ccc] py-2.5 px-5 rounded-[20px]  hover:-translate-y-1.75 transition duration-300">
+            <figure>
+                <img src="images/menu-item3.jpg" alt="" class="w-50 rounded-[20px] h-30 object-cove">
+            </figure>
+            <div class="py-2.5 px-5 mx-auto w-full">
+                <h4 class="text-[#5e5753] font-bold py-2.5 text-[20px] font-raleway text-center">Latte</h4>
+                <p class="text-[#5e5753] font-bold text-[20px] font-urbanist text-center">₹160</p>
+                <span class="text-[#5e5753] text-center text-[15px] block mx-auto font-bold">Mild & velvety</span>
+            </div>
+        </div>
+         
+        <div class="basis-[30%] flex items-center bg-white shadow-[0px_0px_30px_#ccc] py-2.5 px-5 rounded-[20px]  hover:-translate-y-1.75 transition duration-300">
+            <figure>
+                <img src="images/menu-item4.jpg" alt="" class="w-50 rounded-[20px] h-30 object-cover">
+            </figure>
+            <div class="py-2.5 px-5 mx-auto w-full">
+                <h4 class="text-[#5e5753] font-bold py-2.5 text-[20px] font-raleway text-center">Mocha</h4>
+                <p class="text-[#5e5753] font-bold text-[20px] font-urbanist text-center">₹170</p>
+                <span class="text-[#5e5753] text-center text-[15px] block mx-auto font-bold">Chocolate delight</span>
+            </div>
+        </div>
+         
+        <div class="basis-[30%] flex items-center bg-white shadow-[0px_0px_30px_#ccc] py-2.5 px-5 rounded-[20px]  hover:-translate-y-1.75 transition duration-300">
+            <figure>
+                <img src="images/menu-item5.jpg" alt="" class="w-50 rounded-[20px] h-30 object-cover">
+            </figure>
+            <div class="py-2.5 px-5 mx-auto w-full">
+                <h4 class="text-[#5e5753] font-bold py-2.5 text-[20px] font-raleway text-center">Cold Coffee</h4>
+                <p class="text-[#5e5753] font-bold text-[20px] font-urbanist text-center">₹140</p>
+                <span class="text-[#5e5753] text-center text-[15px] block mx-auto font-bold">Chilled & refreshing</span>
+            </div>
+        </div>
+
+    </div>
+    <!--food-->
+    <div class="w-full mt-10">
+        <h2 class="pt-5 text-[#0d0b0c] text-center text-[25px] font-bold font-raleway">Snacks & Food</h2>
+        <p class="text-center text-[#5e5753] font-raleway">Tasty Bites For Every Mood</p>
+        <div class="max-w-292.5 lg:flex  lg:flex-row sm:grid sm:grid-cols-2 sm:px-2.5  flex-col px-2.5  justify-center mx-auto gap-3.75">
+            <div class="basis-[30%] mt-7.5 flex items-center bg-white shadow-[0px_0px_30px_#ccc] py-2.5 px-5 rounded-[20px] hover:-translate-y-1.75">
+                <figure>
+                    <img src="images/food1.jpg" alt="" class="w-50 rounded-[20px] h-30 object-cover">
+                </figure>
+                <div class="py-2.5 px-5 mx-auto w-full">
+                        <h4 class="text-[#5e5753] font-bold py-2.5 text-[20px] font-raleway text-center">Veg Sandwich</h4>
+                <p class="text-[#5e5753] text-[20px] font-bold font-urbanist text-center">₹120</p>
+                <span class="text-[#5e5753] font-bold text-[15px] block text-center">Fresh & Healthy</span>
+                </div>
+            </div>
+
+             <div class="basis-[30%] mt-7.5 flex items-center bg-white shadow-[0px_0px_30px_#ccc] py-2.5 px-5 rounded-[20px] hover:-translate-y-1.75">
+                <figure>
+                    <img src="images/food2.jpg" alt="" class="w-50 rounded-[20px] h-30 object-cover">
+                </figure>
+                <div class="py-2.5 px-5 mx-auto w-full">
+                        <h4 class="text-[#5e5753] font-bold py-2.5 text-[20px] font-raleway text-center">Frech Fries</h4>
+                <p class="text-[#5e5753] text-[20px] font-bold font-urbanist text-center">₹100</p>
+                <span class="text-[#5e5753] font-bold text-[15px] block text-center">Crispy & golden</span>
+                </div>
+            </div>
+             <div class="basis-[30%] mt-7.5 flex items-center bg-white shadow-[0px_0px_30px_#ccc] py-2.5 px-5 rounded-[20px] hover:-translate-y-1.75 sm:col-span-2 sm:w-1/2 sm:justify-self-center ">
+                <figure>
+                    <img src="images/food3.jpg" alt="" class="w-50 rounded-[20px] h-30 object-cover">
+                </figure>
+                <div class="py-2.5 px-5 mx-auto w-full">
+                        <h4 class="text-[#5e5753] font-bold py-2.5 text-[20px] font-raleway text-center">Pasta</h4>
+                <p class="text-[#5e5753] text-[20px] font-bold font-urbanist text-center">₹180</p>
+                <span class="text-[#5e5753] font-bold text-[15px] block text-center">Italian classic</span>
+                </div>
+            </div>
+
+        </div>
+        
+
+    </div>
+    <!--offer-banner-->
+    
+    <div class="w-full max-w-292.5 overflow-hidden relative mx-auto mt-7.5 hover:-translate-y-1.75 transition duration-300">
+        <img src="images/offer.png" alt="" class="block mx-auto w-[95%] h-70 rounded-[30px] ">
+        <div class="w-[95%] absolute top-[5%] left-[4%] py-2.5 px-2.5 ">
+            <h4 class="text-white lg:text-[25px] sm:text-[25px]  text-[20px] py-1.25">Special Offer</h4>
+            <h2 class="text-white lg:text-[30px] sm:text-[30px] text-[25px] py-1.25">Coffee + Croissant Combo</h2>
+            <h3 class="text-white py-1.25 text-xl">₹199</h3>
+            <p class="text-white text-[20px] py-1.25">Perfect together</p>
+           <button class="w-37.5 py-2.5 px-2.5 border-0 rounded-[15px] bg-[#fbefdc] text-[15px] mt-5 font-semibold text-[#3f2c22] mb-3 hover:bg-blue-500 hover:scale-110 transition duration-300 hover:text-white">Order Now</button>
+        </div>
+        
+    </div>
+
+    </section> 
+<!--footer-->
+    <footer class="footer">
+
+    </footer>
+</body>
+<script src="/component/header.js"></script>
+<script src="/component/footer.js"></script>
+
+</html>

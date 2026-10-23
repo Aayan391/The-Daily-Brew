@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link
+    href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Raleway:ital@1&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+<style type="text/tailwindcss">
+  @theme {
+    --font-raleway: "Raleway", sans-serif;
+    --font-urbanist: "Urbanist", sans-serif;
+  }
+</style>
+<title>Home</title>
+</head>
+
+<body class="bg-white text-black dark:bg-[#252a30] dark:text-white">
+  <!--header-->
+    <header class="w-full bg-amber-950 sticky top-0 z-1000">
+    <div class="lg:hidden">
+      <div class="mobile-bars fixed right-[5%] top-[2%] text-[40px] flex items-center text-white">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+<div class="bg-[#28160c] absolute top-full w-full pb-2.5 h-screen z-999 hidden" id="humburger" >
+ <nav>
+          <ul>
+            <li class="text-center text-[30px] w-full py-2.5 px-2.5"><a href="index.html" class="text-white" >Home</a></li>
+            <li class="text-center text-[30px] w-full py-2.5 px-2.5"><a href="menu.html" class="text-white">Menu</a></li>
+            <li class="text-center text-[30px] w-full py-2.5 px-2.5"><a href="gallery.html" class="text-white">Gallery</a></li>
+            <li class="text-center text-[30px] w-full py-2.5 px-2.5"><a href="about.html" class="text-white">About</a></li>
+            <li class="text-center text-[30px] w-full py-2.5 px-2.5"><a href="about.html" class="text-white">Contact</a></li>
+          </ul>
+          <button class="w-75 py-2.5 px-1.25 bg-[#8c4d2a] border-0 text-white mx-auto block">Book a Table</button>
+        </nav>
+      
+    
+</div>
+
+    </div>
+
+    <div class="w-full max-w-292.5 flex justify-between items-center  px-2.5">
+      <div class="flex items-center sm:flex ">
+        <img src="images/logo.png.png" alt="" class="lg:w-37.5 sm:37.5 37.5 lg:h-16.25 sm:h-16.25 w-30 shrink-0  h-16.25 object-contain ">
+        <h4 class="text-white lg:text-[25px] sm:text-[25px] text-[20px] -ml-5  whitespace-nowrap font-raleway text-2xl font-bold">The Daily Brew</h4>
+      </div>
+      <div class="hidden lg:flex items-center sm:items-center ">
+        <nav class="flex gap-12.5">
+          <ul class="flex items-center gap-5">
+            <li><a href="index.html" class="text-white font-bold font-raleway text-2xl ">Home</a></li>
+            <li><a href="menu.html" class="text-white font-bold font-raleway text-2xl">Menu</a></li>
+            <li><a href="gallery.html" class="text-white font-bold font-raleway text-2xl">Gallery</a></li>
+            <li><a href="about.html" class="text-white font-bold font-raleway text-2xl">About</a></li>
+            <li><a href="contact.html" class="text-white font-bold font-raleway text-2xl">Contact</a></li>
+          </ul>
+          <button class="w-37.5 bg-[#884b2c] border-0 text-white px-2.5 py-2.5 font-bold rounded-[20px] hover:bg-blue-500 hover:scale-110 transition duration-300">Book a Table</button>
+        </nav>
+      </div>
+
+    </div>
+  </header>
+  <!--header banner-->
+    <div class="relative">
+    <img src="images/banner2.jpg" alt="" class="w-full lg:h-112.5 sm:h-112.5 h-100 object-cover">
+    <div class="w-[70%] absolute lg:top-[20%] lg:left-[10%] sm:top-[20%] sm:left-[10%] top-[10%] left-[10%]">
+      <h2 class="text-white lg:text-[55px] sm:text-[35px] text-[25px] sm:w-full w-full font-bold">Good Coffee,Good Mood.</h2>
+      <p class="text-white lg:w-[50%]  sm:w-full lg:text-[25px] sm:text-[25px] text-[20px] w-full py-2.5">Freshly brewed coffee, delicious food and a cozy ambience — the perfect place to relax.</p>
+      <div class="flex mt-5 gap-5">
+        <button class="lg:w-[40%]  w-auto shrink-0  sm:w-auto sm:shrink-0 py-2.5 px-5 border-0 rounded-[20px] bg-[#8c4f2d] text-white hover:bg-[lawngreen] transition duration-300">Explore Our Menu</button>
+        <div class="flex lg:w-[40%]  sm:w-auto  sm:shrink-0 w-auto shrink-0 gap-1.25 lg:text-[30px] sm:text-[30px]  text-[25px] text-white items-center">
+          <i class="fa-solid fa-circle-play"></i>
+          <h4>Watch Videos</h4>
+        </div>
+      </div>
+    </div>
+
+  </div>
+<!--popular menu-->
+  <section class="w-full bg-[#f8f0e3] mt-10 pb-7.5">
+    <h2 class="text-center py-2.5 text-[#1d1811] text-[40px] font-raleway font-bold">Popular Menu</h2>
+    <p class="text-center text-[#959189] text-[25px]">Our Customer's Favourite</p>
+    <div class="max-w-292.5 lg:flex sm:grid sm:grid-cols-2  sm:px-2.5 grid grid-cols-1 px-2.5 justify-center gap-10 mt-10 mx-auto">
+      <div class="lg:w-[25%] rounded-[20px] overflow-hidden hover:-translate-y-1.75 transition duration-300">
+        <img src="images/menu 1.jpg" alt="" class="w-full h-50 block">
+        <div class="bg-white shadow-[0px_0px_50px_#ccc]">
+          <p class="text-[#59524c] py-1.25 px-2.5 text-[20px]">Cappuccino</p>
+          <span class="text-[#59524c] py-1.25 px-2.5 text-[20px]">₹ 140</span>
+        </div>
+      </div>
+      <div class="lg:w-[25%] rounded-[20px] overflow-hidden hover:-translate-y-1.75 transition duration-300">
+        <img src="images/banner2.jpg" alt="" class="w-full h-50 block">
+        <div class="bg-white  shadow-[0px_0px_50px_#ccc]">
+          <p class="text-[#59524c] py-1.25 px-2.5 text-[20px]">Iced Lattle</p>
+          <span class="text-[#59524c] py-1.25 px-2.5 text-[20px]">₹ 160</span>
+        </div>
+      </div>
+      <div class="lg:w-[25%] rounded-[20px] overflow-hidden hover:-translate-y-1.75 transition duration-300">
+        <img src="images/menu2.jpg" alt="" class="w-full h-50 block">
+        <div class="bg-white  shadow-[0px_0px_50px_#ccc]">
+          <p class="text-[#59524c] py-1.25 px-2.5 text-[20px]">Chocolate Croissant</p>
+          <span class="text-[#59524c] py-1.25 px-2.5 text-[20px]">₹ 100</span>
+        </div>
+      </div>
+      <div class="lg:w-[25%] rounded-[20px] overflow-hidden hover:-translate-y-1.75 transition duration-300">
+        <img src="images/menu3.jpg" alt="" class="w-full h-50 block">
+        <div  class="bg-white  shadow-[0px_0px_50px_#ccc]">
+          <p class="text-[#59524c] py-1.25 px-2.5 text-[20px]">Vanilla Cheesecake</p>
+          <span class="text-[#59524c] py-1.25 px-2.5 text-[20px]">₹ 160</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="mt-5">
+      <button class="w-50 bg-[#2b190f] block text-center py-2.5 px-1.25 border-0 rounded-[20px] mx-auto text-white font-bold hover:bg-[darkslateblue]">View Full Menu</button>
+    </div>
+  </section>
+  <!--about section-->
+  <section class="w-full mt-7.5 bg-[#f8efe2]">
+    <div class="max-w-292.5 flex sm:flex-col flex-col lg:flex-row mx-auto gap-2.5">
+      <figure class="basis-[45%]">
+        <img src="images/about.jpg" alt="" class="w-full py-3.75 px-2.5 rounded-[20px] hover:-translate-y-1.75 transition duration-300">
+      </figure>
+      <div class="basis-[45%] mt-7.5">
+        <h2 class="py-2.5 px-5 font-bold text-xl sm:text-center text-center lg:text-left font-raleway dark:text-[#28160c]"">About our Cafe</h2>
+        <p class="font-urbanist py-1.25 px-5 leading-7.5 dark:text-[#28160c]">The Daily Brew is more than just a café. It's a place where great coffee, good food and meaningful moments
+          come together. We believe in using fresh ingredients, brewing the finest coffee and creating a cozy space for
+          everyone.
+
+          Our passion for coffee inspires us to deliver the perfect blend of taste, quality and freshness in every cup.
+          From rich, aromatic espresso to creamy cappuccinos and refreshing iced coffees, we offer something for every
+          coffee lover. Every drink is prepared with care and attention to detail to make your coffee experience truly
+          special.</p>
+          <div class="py-5 px-5 lg:flex lg:justify-start">
+        <button class="w-50 px-2.5 py-2.5 bg-[#301e13] sm:mx-auto sm:block lg:mx-0 mx-auto block  text-white rounded-[20px] font-bold hover:bg-[cornflowerblue] hover:scale-110 transition duration-300">Discover Our Story</button>
+      </div>
+      </div>
+      
+
+    </div>
+
+  </section>
+  <!--why choose us-->
+  <section class="w-full bg-[#f8efe2] mt-7.5">
+    <h2 class="text-center py-3.75 text-3xl font-bold font-raleway dark:text-[#28160c]">Why Choose Us</h2>
+    <p class="text-center text-[#3a3833] pb-5 font-urbanist text-xl font-semibold dark:text-[#28160c]">What Makes Us Special</p>
+<div class="max-w-292.5 lg:flex grid grid-cols-1 px-2.5 sm:grid sm:grid-cols-2 justify-center mx-auto gap-5">
+  <div class="basis-[30%] bg-white shadow-[0px_0px_30px_#ccc] py-5 rounded-[20px] hover:-translate-y-1.75 text-center">
+   <i class="fa-solid fa-jar-wheat bg-[#a35d3d] w-7.5 py-3.75 text-white rounded-[50%] inline-block mx-auto text-center"></i>
+   <h4 class="text-center pt-3.75 font-raleway text-[20px] font-bold dark:text-[#28160c]">Fresh Ingredients</h4>
+   <p class="mx-auto w-[50%] pt-3.75 text-center text-[18px] dark:text-[#28160c]">We use only the best and freshest ingredients.</p>
+  </div>
+  <div class="basis-[30%] bg-white shadow-[0px_0px_30px_#ccc] py-5 rounded-[20px] hover:-translate-y-1.75 text-center">
+   <i class="fa-solid fa-mug-saucer bg-[#a35d3d] w-7.5 py-3.75 text-white rounded-[50%] inline-block mx-auto text-center"></i>
+   <h4 class="text-center pt-3.75 font-raleway text-[20px] font-bold dark:text-[#28160c]">Expertly Brewed Coffee</h4>
+   <p class="mx-auto w-[50%] pt-3.75 text-center text-[18px] dark:text-[#28160c]">Crafted by skilled baristas with passion.</p>
+  </div>
+  <div class="basis-[30%] bg-white shadow-[0px_0px_30px_#ccc] py-5 rounded-[20px] hover:-translate-y-1.75 text-center">
+  <i class="fa-solid fa-people-carry-box bg-[#a35d3d] w-7.5 py-3.75 text-white rounded-[50%] inline-block mx-auto text-center"></i>
+   <h4 class="text-center pt-3.75 font-raleway text-[20px] font-bold dark:text-[#28160c]">Cozy Ambience</h4>
+   <p class="mx-auto w-[50%] pt-3.75 text-center text-[18px] dark:text-[#28160c]">A warm and relaxing space for everyone.</p>
+  </div>
+  <div class="basis-[30%] bg-white shadow-[0px_0px_30px_#ccc] py-5 rounded-[20px] hover:-translate-y-1.75 text-center">
+<i class="fa-solid fa-handshake bg-[#a35d3d] w-7.5 py-3.75 text-white rounded-[50%] inline-block mx-auto text-center"></i>
+   <h4 class="text-center pt-3.75 font-raleway text-[20px] font-bold dark:text-[#28160c]">Friendly Service</h4>
+   <p class="mx-auto w-[50%] pt-3.75 text-center text-[18px] dark:text-[#28160c]">We always welcome you with a smile.</p>
+  </div>
+</div> 
+<!-- testimonials -->
+<div class="w-full mt-12.5">
+  <h2 class="text-center font-raleway text-[25px] font-bold dark:text-[#28160c]">Testimonials</h2>
+  <p class="text-center pt-2.5 text-xl font-raleway dark:text-[#28160c]">What Our Customers Say</p>
+  <span class="text-center block pt2.5 text-xl font-raleway dark:text-[#28160c]">Real people, real experiences.</span>
+<div class="max-w-292.5 lg:flex lg:flex-row flex flex-col px-2.5 py-2.5 justify-center sm:grid sm:grid-cols-2 sm:px-2.5 mx-auto gap-2.5 mt-7.5">
+  <div class="basis-[30%] bg-white shadow-[0px_0px_30px_#ccc] rounded-[20px] hover:-translate-y-1.75 transition duration-300">
+    <div class="px-5 py-5">
+    <img src="images/imgi_20_student1.png" alt="" class="w-17.5 rounded-[20px]">
+    <p class="w-full py-2.5 px-3.75 dark:text-[#28160c]">“The coffee here is simply amazing! My new favorite spot.”</p>
+    </div>
+    <span class="py-2.5 px-10 dark:text-[#28160c]">— Michael Thomas</span>
+    <div class="flex justify-center">
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+
+    </div>
+
+  </div>
+    <div class="basis-[30%] bg-white shadow-[0px_0px_30px_#ccc] rounded-[20px] hover:-translate-y-1.75 transition duration-300">
+    <div class="px-5 py-5">
+    <img src="images/imgi_21_student2.png" alt="" class="w-17.5 rounded-[20px]">
+    <p class="w-full py-2.5 px-3.75 dark:text-[#28160c]">“Great food, friendly staff and beautiful ambience.”</p>
+    </div>
+    <span class="py-2.5 px-10 dark:text-[#28160c]"> — Peter Johnson</span>
+    <div class="flex justify-center">
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+
+    </div>
+
+  </div>
+    <div class="basis-[30%] bg-white shadow-[0px_0px_30px_#ccc] rounded-[20px] hover:-translate-y-1.75 transition duration-300 sm:col-span-2 sm:w-1/2 sm:justify-self-center">
+    <div class="px-5 py-5">
+    <img src="images/jerzygorecki-girl-2961959_640.jpg" alt="" class="w-17.5 rounded-[20px]">
+    <p class="w-full py-2.5 px-3.75 dark:text-[#28160c]">“Perfect place for coffee and work. Love it!”</p>
+    </div>
+    <span class="py-2.5 px-10 dark:text-[#28160c]">— Sarah Johnson</span>
+    <div class="flex justify-center">
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+      <i class="fa-solid fa-star text-[#feb138] py-2.5 px-5"></i>
+
+    </div>
+
+  </div>
+</div>
+
+</div>
+  </section>
+<!--footer-->
+     <footer class="w-full bg-[#28160c] ">
+   <div class="max-w-292.5 lg:flex lg:flex-row sm:flex sm:flex-col md:flex-row flex flex-col gap-2.5 justify-center">
+    <div class="lg:w-[30%] md:w-[35%]  sm:w-full  w-full lg:flex lg:flex-row md:flex-row sm:flex sm:flex-col flex flex-col">
+      <div class="sm:mx-auto md:mx-0 lg:mx-0 mx-auto" >
+        <img src="/images/logo.png.png" alt="" class="lg:w-37.5 md:w-32 shrink-0  mx-auto  lg:mx-0 sm:w-full">
+      </div>
+      <div class=" ml-0 py-2.5 sm:mx-auto sm:text-2xl sm:w-full lg:mx-0 ">
+        <h4 class="text-white font-raleway lg:text-left w-full  text-center font-bold text-xl sm:2xl  whitespace-nowrap">The Daily Brew</h4>
+        <p class="text-white font-urbanist lg:text-left md:text-left text-center w-full sm:text-2xl whitespace-nowrap">Coffee - Food - Vibe</p>
+      </div>
+    </div>
+      <div class="lg:w-[20%] md:w-[20%] w-full py-2.5 px-2.5 lg:mx-0  mx-auto">
+        <h4 class="text-white font-raleway  lg:text-left  md:text-left text-center sm:text-2xl font-bold text-xl">Quick Links</h4>
+    <ul class="lg:text-left  text-center">
+      <li class="py-1.25 px-2.5 font-urbanist text-xl font-semibold sm:text-2xl"><a href="index.html" class="text-white">Home</a></li>
+      <li class="py-1.25 px-2.5 font-urbanist text-xl font-semibold sm:text-2xl"><a href="menu.html" class="text-white">Menu</a></li>
+      <li class="py-1.25 px-2.5 font-urbanist text-xl font-semibold sm:text-2xl"><a href="gallery.html" class="text-white">Gallery</a></li>
+      <li class="py-1.25 px-2.5 font-urbanist text-xl font-semibold sm:text-2xl"><a href="about.html" class="text-white">About</a></li>
+      <li class="py-1.25 px-2.5 font-urbanist text-xl font-semibold sm:text-2xl"><a href="contact.html" class="text-white">Contact</a></li>
+    </ul>
+      </div>
+      <div class="lg:w-[30%] md:w-[30%] w-full py-2.5 px-5 mx-auto">
+        <h4 class="text-white font-raleway lg:text-left  text-center lg:py-0 py-2.5 text-xl sm:py-2.5 sm:text-2xl font-bold">Contact Us</h4>
+        <div class=" flex lg:flex-row md:flex-row flex-col   gap-2 py-1.25 items-center text-white font-urbanist  font-semibold">
+          <i class="fa-solid fa-location-dot text-white sm:text-2xl"></i>
+          <span class="w-full lg:text-left md:text-left sm:text-xl  text-center">123, MI Road, Jaipur, Rajasthan</span>
+        </div>
+        <div class="flex lg:flex-row md:flex-row   flex-col gap-2 py-1.25 items-center font-semibold text-white font-urbanist">
+          <i class="fa-solid fa-phone sm:text-2xl"></i>
+          <span class="w-full lg:text-left md:text-left sm:text-xl text-center">+91 48765 43210</span>
+        </div>
+        <div class="flex lg:flex-row md:flex-row flex-col gap-2 py-1.25 font-semibold items-center text-white font-urbanist">
+          <i class="fa-solid fa-envelope sm:text-2xl "></i>
+          <span class="w-full lg:text-left md:text-left  sm:text-xl text-center">info@thedailybrew.in</span>
+        </div>
+      </div>
+<div class="lg:w-[20%] md:w-[20%] w-full py-2.5 px-2.5 lg:mr-0 md:mr-0 mx-auto">
+  <h4 class="text-white pb-1.25 font-raleway text-center lg:text-left md:text-left  text-xl sm:text-2xl  font-bold whitespace-nowrap">Opening Hours</h4>
+  <p class="text-white pb-1.25 font-urbanist text-center lg:text-left md:text-left text-xl font-bold">Mon - Sun</p>
+  <span class="text-white pb-1.25 font-urbanist text-center lg:text-left md:text-left w-full block  font-bold whitespace-nowrap">8:00 AM - 11:00 PM</span>
+  <div class="flex lg:mx-0 mx-auto w-full justify-center lg:justify-start md:justify-start text-center items-center gap-2 font-semibold sm:text-2xl text-xl">
+    <i class="fa-brands fa-facebook text-white"></i>
+    <i class="fa-brands fa-instagram text-white"></i>
+    <i class="fa-brands fa-x-twitter text-white"></i>
+    <i class="fa-brands fa-youtube text-white"></i>
+  </div>
+</div>
+   </div> 
+  </footer>
+</body> 
+<script src="script.js"></script>
+
+
+</html>

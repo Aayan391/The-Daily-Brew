@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <link
+    href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Raleway:ital@1&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+<style type="text/tailwindcss">
+  @theme {
+    --font-raleway: "Raleway", sans-serif;
+    --font-urbanist: "Urbanist", sans-serif;
+  }
+</style>
+    
+     <title>Gallery</title>
+</head>
+<body class="bg-white text-black dark:bg-[#252a30] dark:text-white">
+    <!--header-->
+     <div class="header sticky top-0 z-50"></div>
+     <!--header-banner-->
+     <div class="relative">
+        <img src="images/gallery-banner.jpg" alt="" class="w-full lg:h-112.5 sm:h-112.5 h-100 object-cover">
+        <div class="absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-center">
+            <h2 class="text-white text-center lg:text-[80px] sm:text-[60px] text-[35px] w-auto font-bold">Our Gallery</h2>
+            <p class="text-white text-center lg:text-[25px] sm:text-[25px] text-[20px]">A Glimpse Of Our Cafe</p>
+        </div>
+     </div>
+     <!--button-->
+     <div class="mt-7.5 flex lg:flex-row flex-col sm:flex-row sm:px-2.5 px-2.5 justify-center gap-5">
+        <button class="lg:w-30 sm:w-30 block text-center    bg-[#24130a] text-white py-2.5 px-2.5 border-0 rounded-[15px] hover:bg-[chartreuse] transition duration-300">All</button>
+        <button class="lg:w-30 sm:w-30 block text-center   py-2.5 px-2.5 bg-[#f0f0f0] border-0 rounded-[15px] font-semibold hover:bg-[cornflowerblue] hover:scale-110 transition duration-300 dark:text-[#28160c]">Interior</button>
+        <button class="lg:w-30 sm:w-30 block text-center   py-2.5 px-2.5 bg-[#f0f0f0] border-0 rounded-[15px] font-semibold hover:bg-[cornflowerblue] hover:scale-110 transition duration-300 dark:text-[#28160c]">Coffee</button>
+        <button class="lg:w-30 sm:w-30 block text-center   py-2.5 px-2.5 bg-[#f0f0f0] border-0 rounded-[15px] font-semibold hover:bg-[cornflowerblue] hover:scale-110 transition duration-300 dark:text-[#28160c]">Food</button>
+     </div>
+ <!--middle images-->
+     <section class="w-full bg-[#f9f3e7] mt-10">
+<div class="max-w-292.5 lg:grid lg:grid-cols-3 sm:grid sm:grid-cols-2 flex flex-col justify-center gap-5 mx-auto py-2.5.5 px-2.5">
+    <img src="images/about.jpg" alt="" class="w-full max-w-100 h-75 rounded-[20px] hover:-translate-y-2 transition duration-300 text-center block mx-auto">
+     <img src="images/menu 1.jpg" alt="" class="w-full max-w-100 h-75 rounded-[20px] hover:-translate-y-2 transition duration-300 text-center block mx-auto">
+      <img src="images/food1.jpg" alt="" class="w-full max-w-100 h-75 rounded-[20px] hover:-translate-y-2 transition duration-300 text-center block mx-auto">
+       <img src="images/food2.jpg" alt="" class="w-full max-w-100 h-75 rounded-[20px] hover:-translate-y-2 transition duration-300 text-center block mx-auto">
+        <img src="images/food3.jpg" alt="" class="w-full max-w-100 h-75 rounded-[20px] hover:-translate-y-2 transition duration-300 text-center block mx-auto">
+         <img src="images/gallery-banner.jpg" alt="" class="w-full max-w-100 h-75 rounded-[20px] hover:-translate-y-2 transition duration-300 text-center block mx-auto">
+          <img src="images/menu2.jpg" alt="" class="w-full max-w-100 h-75 rounded-[20px] hover:-translate-y-2 transition duration-300 text-center block mx-auto">
+           <img src="images/menu3.jpg" alt="" class="w-full max-w-100 h-75 rounded-[20px] hover:-translate-y-2 transition duration-300 text-center block mx-auto">
+            <img src="images/menu-item3.jpg" alt="" class="w-full max-w-100 h-75 rounded-[20px] hover:-translate-y-2 transition duration-300 text-center block mx-auto sm:col-span-2 sm:w-1/2 lg:col-span-1 lg:w-full sm:justify-self-center">
+
+</div>
+<!--footer image-->
+<div class="w-full">
+    <img src="images/gallery -mobile.png" alt="" class="w-full text-center hover:-translate-y-2">
+</div>
+
+     </section>
+<!--footer-->
+       <footer class="footer">
+
+    </footer> 
+</body>
+<script src="/component/header.js"></script>
+<script src="/component/footer.js"></script>
+
+</html>

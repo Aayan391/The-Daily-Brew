@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <link
+    href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Raleway:ital@1&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+ <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<style type="text/tailwindcss">
+  @theme {
+    --font-raleway: "Raleway", sans-serif;
+    --font-urbanist: "Urbanist", sans-serif;
+  }
+
+</style>
+    <title>header</title>
+</head>
+<body>
+      <header class="w-full bg-amber-950 sticky top-0 z-1000">
+    <div class="lg:hidden">
+      <div class="mobile-bars fixed right-[5%] top-[2%] text-[40px] flex items-center text-white">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+<div class="bg-[#28160c] absolute top-full w-full pb-2.5 h-screen z-999 hidden" id="humburger" >
+ <nav>
+          <ul>
+            <li class="text-center text-[30px] w-full py-2.5 px-2.5"><a href="index.html" class="text-white" >Home</a></li>
+            <li class="text-center text-[30px] w-full py-2.5 px-2.5"><a href="menu.html" class="text-white">Menu</a></li>
+            <li class="text-center text-[30px] w-full py-2.5 px-2.5"><a href="gallery.html" class="text-white">Gallery</a></li>
+            <li class="text-center text-[30px] w-full py-2.5 px-2.5"><a href="about.html" class="text-white">About</a></li>
+            <li class="text-center text-[30px] w-full py-2.5 px-2.5"><a href="about.html" class="text-white">Contact</a></li>
+          </ul>
+          <button class="w-75 py-2.5 px-1.25 bg-[#8c4d2a] border-0 text-white mx-auto block">Book a Table</button>
+        </nav>
+      
+    
+</div>
+
+    </div>
+
+    <div class="w-full max-w-292.5 flex justify-between items-center  px-2.5">
+      <div class="flex items-center sm:flex ">
+        <img src="/images/logo.png.png" alt="" class="lg:w-37.5 sm:37.5 37.5 lg:h-16.25 sm:h-16.25 w-30 shrink-0  h-16.25 object-contain ">
+        <h4 class="text-white lg:text-[25px] sm:text-[25px] text-[20px] -ml-5  whitespace-nowrap font-raleway text-2xl font-bold">The Daily Brew</h4>
+      </div>
+      <div class="hidden lg:flex items-center sm:items-center ">
+        <nav class="flex gap-12.5">
+          <ul class="flex items-center gap-5">
+            <li><a href="index.html" class="text-white font-bold font-raleway text-2xl ">Home</a></li>
+            <li><a href="menu.html" class="text-white font-bold font-raleway text-2xl">Menu</a></li>
+            <li><a href="gallery.html" class="text-white font-bold font-raleway text-2xl">Gallery</a></li>
+            <li><a href="about.html" class="text-white font-bold font-raleway text-2xl">About</a></li>
+            <li><a href="contact.html" class="text-white font-bold font-raleway text-2xl">Contact</a></li>
+          </ul>
+          <button class="w-37.5 bg-[#884b2c] border-0 text-white px-2.5 py-2.5 font-bold rounded-[20px] hover:bg-blue-500 hover:scale-110 transition duration-300">Book a Table</button>
+        </nav>
+      </div>
+
+    </div>
+  </header>
+</body>
+<script src="/component/header.js"></script>
+<script src="/script.js"></script>
+
+</html>
