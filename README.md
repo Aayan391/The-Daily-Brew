@@ -64,9 +64,9 @@ Open the project folder in VS Code.
 
 Run index.html using Live Server.
 
-🔗 Live Demo
+🔗 Live Demo:https://the-daily-brew.vercel.app
 
-Add your deployed website URL here.
+
 
 👨‍💻 Author
 Muhammad Aayan
