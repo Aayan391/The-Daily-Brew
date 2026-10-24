@@ -58,7 +58,7 @@ The-Daily-Brew/
 
 Clone this repository:
 
-git clone YOUR_GITHUB_REPOSITORY_URL
+https://github.com/Aayan391/The-Daily-Brew.git
 
 Open the project folder in VS Code.
 
